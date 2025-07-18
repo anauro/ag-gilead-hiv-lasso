@@ -9,11 +9,13 @@ This study had two key components:
 
 ### (1) Quantifying Drop-Off in Care
 Patients were defined as retained in care if they had HIV-related provider visits, CD4/viral load tests, or treatment adherence within the observation window. We compared engagement in the year before vs. after COVID-19 using logistic regression.  
+
 _See scripts 1.0–2.3 for details._
 > *Note: Study population identification (SQL/SAS) is excluded from this repo.*
 
 ### (2) Identifying Predictors of Disengagement
 Using the treatment adherence-based definition of engagement, we focused on patients who were engaged pre-pandemic and classified them based on post-COVID outcomes (retained in care vs. falling out of care). A LASSO model was used to predict disengagement and surface the most important contributing features.
+
 _See scripts 3.0–4.1 for details._
 
 ## 🧠 Methods & Tools
@@ -28,7 +30,6 @@ _See scripts 3.0–4.1 for details._
 
 ## 📂 Contents
 - `scripts/`: Cleaning, modeling, and visualization scripts
-- `slides/`: Final deck summarizing findings and recommendations (PDF)
 - `README.md`: Overview of the project
 
 | Script | Description |
@@ -49,4 +50,4 @@ _See scripts 3.0–4.1 for details._
 | `4.0 LASSO Model` | Train LASSO model to predict falling out of care and important features |
 | `4.1 Forest Plot` | Create feature importance forest plot |
 
-> 📌 This study is currently under peer review. Slides and final paper will be linked when published.
+> 📌 This study is currently under peer review. Final paper will be linked when published.
