@@ -29,10 +29,10 @@ _See scripts 3.0–4.1 for details._
 - Enabled actionable insights to support targeted clinical outreach and intervention
 
 ## 📂 Contents
-- `scripts/`: Cleaning, modeling, and visualization scripts
+- `scripts/`: Code
 - `README.md`: Overview of the project
 
-| Script | Description |
+| Program | Description |
 |--------|-------------|
 | `1.0 Demographics` | Define study population demographics such as age, sex, and health plan type |
 | `1.1 Drugs and Labs` | Identify relevant medications and lab tests |
